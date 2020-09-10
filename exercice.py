@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 def majuscule(mot):
-    distance_entre_min_et_maj= prd
+    distance_entre_min_et_maj= prd('a')
     resultat = ''
     for lettre in mot:
         # 
