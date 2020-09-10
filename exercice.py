@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 def majuscule(mot):
+    distance_entre
     resultat = ''
     for lettre in mot:
         # 
