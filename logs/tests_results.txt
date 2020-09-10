@@ -1,6 +1,16 @@
-test_upper_case_names (__main__.TestExercice) ... ok
+test_upper_case_names (__main__.TestExercice) ... ERROR
+
+======================================================================
+ERROR: test_upper_case_names (__main__.TestExercice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_exercice.py", line 17, in test_upper_case_names
+    output = list(map(exercice.majuscule, self.words))
+  File "/home/runner/work/c02-ch2-majuscule-yassinerocmaaa/c02-ch2-majuscule-yassinerocmaaa/exercice.py", line 4, in majuscule
+    distance_entre_min_et_maj= prd('a')
+NameError: name 'prd' is not defined
 
 ----------------------------------------------------------------------
-Ran 1 test in 0.000s
+Ran 1 test in 0.001s
 
-OK
+FAILED (errors=1)
